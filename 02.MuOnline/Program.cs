@@ -58,6 +58,7 @@ namespace _02.MuOnline
                         Console.WriteLine($"You died! Killed by {room[0]}.");
                         Console.WriteLine($"Best room: {roomCounter}");
                         isDead = true;
+                        break;
                     }
                     else
                     {
@@ -68,7 +69,7 @@ namespace _02.MuOnline
             }
             if (!isDead)
             {
-                Console.WriteLine("You made it!");
+                Console.WriteLine("You've made it!");
                 Console.WriteLine(currrentPlayer.ToString());
             }
         }
