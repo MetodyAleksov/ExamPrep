@@ -9,20 +9,33 @@ namespace _03.Numbers
     {
         static void Main(string[] args)
         {
-            List<int> arr = Console.ReadLine()
+            List<double> arr = Console.ReadLine()
                 .Split()
-                .Select(int.Parse)
+                .Select(double
+                .Parse)
                 .ToList();
             double average = arr.Sum() / arr.Count;
+            average = Math.Floor(average);
             arr.RemoveAll(x => x <= average);
             arr.Sort();
             arr.Reverse();
-            List<int> top5nums = new List<int>();
-            for (int i = 0; i < arr.Count; i++)
+            List<double> top5nums = new List<double>();
+            if (arr.Count == 0)
             {
-                top5nums.Add(arr[i]);
+                Console.WriteLine("No");
             }
-            Console.WriteLine(string.Join(" ", top5nums));
+            else
+            {
+                for (int i = 0; i < 5; i++)
+                {
+                    if (i >= arr.Count)
+                    {
+                        break;
+                    }
+                    top5nums.Add(arr[i]);
+                }
+                Console.WriteLine(string.Join(" ", top5nums));
+            }
         }
     }
 }
