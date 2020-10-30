@@ -51,7 +51,7 @@ namespace _03.MovingTargets
                         startRange = 0;
                     }
                     int count = 1 + (radius * 2);
-                    if ((startRange < 0 || startRange >= targets.Count) || (startRange + count >= targets.Count || startRange + count <= 0))
+                    if ((startRange < 0 || index + radius >= targets.Count) || (index < 0 || index >= targets.Count))
                     {
                         Console.WriteLine($"Strike missed!");
                     }
