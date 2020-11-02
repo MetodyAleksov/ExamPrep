@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.DisneyLandx", "01.Disney
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ArcheryTournament", "02.ArcheryTournament\02.ArcheryTournament.csproj", "{8277E03A-73C3-45D7-B72B-A226D9DBC67C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Library", "03.Library\03.Library.csproj", "{029A9B97-4CFE-41AE-B3D7-03829FF006F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{8277E03A-73C3-45D7-B72B-A226D9DBC67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8277E03A-73C3-45D7-B72B-A226D9DBC67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8277E03A-73C3-45D7-B72B-A226D9DBC67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029A9B97-4CFE-41AE-B3D7-03829FF006F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A9B97-4CFE-41AE-B3D7-03829FF006F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029A9B97-4CFE-41AE-B3D7-03829FF006F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029A9B97-4CFE-41AE-B3D7-03829FF006F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
